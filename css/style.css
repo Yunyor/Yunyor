@@ -344,9 +344,6 @@ main {
   background-color: black;
   font-size: var(--lg);
 }
-.datos h1:first-child{
-    
-}
 .datos p{
   width: 100%;
   text-align: justify;
@@ -382,7 +379,9 @@ main {
   }
   
   header nav {
+
     left: -100%;
+    
 		width: 100%;
     background-color: rgba(0, 0, 0, .5);;
 		height: calc(100% - 80px);
@@ -401,9 +400,7 @@ main {
     margin-left: 0;
     text-align: center;
   }
-  .navbar-right {
-    
-  }
+ 
   header nav div ul {
     flex-direction: column;
     width: 100%;
