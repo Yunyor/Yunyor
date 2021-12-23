@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
-	<script src="main.js"></script>
+	<script src="resposive.js"></script>
 </head>
 
 <body>
     <header>
-        <div class="menu_bar">
+        <div class="menu_bar menu-mobiles">
 			<a href="#" class="bt-menu"><span class="icon-list2"></span>Menú</a>
 		</div>
 
@@ -30,12 +30,12 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-right">
+            <div class="navbar-right" >
                 <ul>
-                    <li><a href="#principio">Inicio</a></li>
-                    <li><a href="#contenido">Portafolio</a></li>
-                    <li><a href="#contenido">Sobre Mi</a></li>
-                    <li><a href="/">Contacto</a></li>
+                    <li><a href="#principio" class="menu_bar">Inicio</a></li>
+                    <li><a href="#portafolio" class="menu_bar">Portafolio</a></li>
+                    <li><a href="#contenido" class="menu_bar">Sobre Mi</a></li>
+                    <li><a href="/" class="menu_bar">Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -77,7 +77,7 @@
                     de aplicaciones en PHP en el instituto INTECAP.
                 </p>
             </div>
-            <div class="conteiner-contenido" id="contenido">
+            <div class="conteiner-contenido" id="portafolio">
                 <div class="conteiner-portafolio-titulo">
                     <h1>Portafolio / Proyectos Realizados</h1>
                 </div>
@@ -108,7 +108,7 @@
                 </div>
 
             </div>
-            <div class="conteiner-sobremi">
+            <div class="conteiner-sobremi" id="contenido">
                 <!-- <div class="sobremi-foto">
                     <picture class="conteiner-fotografia-sobremi">
                         <img src="./css/img/fondo-sobremi.jpg" alt="">
